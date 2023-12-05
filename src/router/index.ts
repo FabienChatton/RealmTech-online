@@ -16,10 +16,17 @@ const routes = [
       default: () => import("@/views/Inscription.vue"),
     }
   },
+  {
+    path: "/about",
+    components: {
+      nav: () => import("@/views/Nav.vue"),
+      default: () => import("@/views/About.vue"),
+    }
+  },
 ]
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory("/RealmTech/"),
   routes,
 })
 

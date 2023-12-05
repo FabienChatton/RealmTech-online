@@ -14,5 +14,9 @@
             text="Inscription"
             to="/inscription"
         ></v-tab>
+        <v-tab
+            text="About"
+            to="/about"
+        ></v-tab>
     </v-tabs>
 </template>
