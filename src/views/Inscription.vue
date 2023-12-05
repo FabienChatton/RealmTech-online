@@ -40,10 +40,10 @@ async function register() {
             <v-col>
                 <v-card>
                     <v-sheet v-if="errorMessage" color="red"><div class="pa-4">{{ errorMessage }}</div></v-sheet> 
-                    <v-text-field label="username" v-model="username" class="ma-4"></v-text-field>
-                    <v-text-field label="email (optionnel)" v-model="email" class="ma-4"></v-text-field>
-                    <v-text-field label="password" v-model="password" class="ma-4"></v-text-field>
-                    <v-text-field label="password confirmation" v-model="passwordConfirm" class="ma-4"></v-text-field>
+                    <v-text-field label="username" v-model="username"  class="ma-4"></v-text-field>
+                    <v-text-field label="email (optionnel)" type="email" v-model="email" class="ma-4"></v-text-field>
+                    <v-text-field label="password" type="password" v-model="password" class="ma-4"></v-text-field>
+                    <v-text-field label="password confirmation" type="password" v-model="passwordConfirm" class="ma-4"></v-text-field>
 
                     <v-card-actions>
                         <v-btn @click="register" class="bg-green ml-4 mb-4">S'inscrire</v-btn>
