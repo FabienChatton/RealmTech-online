@@ -1,28 +1,26 @@
 ---
+import RealmTechAuthLayout from "../layout/RealmTechAuthLayout.astro";
 
 ---
-<head>
-    <meta charset="utf-8">
-    <link rel="icon" type="image/x-icon" href="/RealmTech/favicon.ico" />
-</head>
-
-<div class="hero min-h-screen bg-rt">
-    <div class="hero-content text-center">
-        <div>
-            <img src="/RealmTech/logo-RealmTech.png" alt="logo-RealmTech" class="m-auto">
-            <img src="/RealmTech/RealmTech-screenshot.png" alt="Gameplay-RealmTech" class="max-w-screen-md m-auto rounded-md shadow-2xl">
-            <div class="text-base-100">
-                <p class="py-6"> Un petit jeu qui s'inspire de Factorio (dans la partie 2d de la carte) et de Gregtech (pour la mécanique de progression des tier). L'un des buts premiers RealmTech est de changer la mécanique de progression de Factorio pour qu'elle soit moins dans la production massive de fiole, mais dans l'évolution progressive des matériaux pour accéder à de meilleures machines. L'un des buts est aussi de pouvoir avoir une plus grande liberté de construction avec des blocs décoratifs qu'on peut posse n'importe où pour créer ses propres bâtiments.</p>
-                <a href="/RealmTech/inscription">
-                    <button class="btn btn-primary">Inscription</button>
-                </a>
-                <a href="/RealmTech/download">
-                    <button class="btn btn-primary">Télécharger</button>
-                </a>
-                <a href="https://github.com/FabienChatton/RealmTech" target="_blank">
-                    <button class="btn btn-primary">GitHub</button>
-                </a>
+<RealmTechAuthLayout>
+    <div class="hero min-h-screen bg-rt">
+        <div class="hero-content text-center">
+            <div>
+                <img src="/RealmTech/logo-RealmTech.png" alt="logo-RealmTech" class="m-auto">
+                <img src="/RealmTech/RealmTech-screenshot.png" alt="Gameplay-RealmTech" class="max-w-screen-md m-auto rounded-md shadow-2xl">
+                <div class="text-base-100">
+                    <p class="py-6"> Un petit jeu qui s'inspire de Factorio (dans la partie 2d de la carte) et de Gregtech (pour la mécanique de progression des tier). L'un des buts premiers RealmTech est de changer la mécanique de progression de Factorio pour qu'elle soit moins dans la production massive de fiole, mais dans l'évolution progressive des matériaux pour accéder à de meilleures machines. L'un des buts est aussi de pouvoir avoir une plus grande liberté de construction avec des blocs décoratifs qu'on peut posse n'importe où pour créer ses propres bâtiments.</p>
+                    <a href="/RealmTech/inscription">
+                        <button class="btn btn-primary">Inscription</button>
+                    </a>
+                    <a href="/RealmTech/download">
+                        <button class="btn btn-primary">Télécharger</button>
+                    </a>
+                    <a href="https://github.com/FabienChatton/RealmTech" target="_blank">
+                        <button class="btn btn-primary">GitHub</button>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
-</div>
+</RealmTechAuthLayout>
