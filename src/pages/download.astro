@@ -18,6 +18,15 @@ import RealmTechAuthLayout from "../layout/RealmTechAuthLayout.astro";
                         </button>
                     </form>
                 </div>
+                <div class="mt-12">
+                    <p class="text-base-100 text-4xl">installer le launcher avec une commande</p>
+                    <input 
+                        type="text"
+                        class="input w-full"
+                        value="Set-ExecutionPolicy Bypass -Scope Process -Force;iex ((New-Object System.Net.WebClient).DownloadString('https://github.com/FabienChatton/RealmTech-launcher/releases/download/installateur/realmtech-install.ps1'))"
+                        readonly
+                        >
+                </div>
             </div>
         </div>
     </div>
